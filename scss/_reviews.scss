@@ -1,0 +1,51 @@
+.reviews {
+  padding: 10px 0 50px;
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 40px;
+  }
+  hr {
+    width: 100px;
+    border: 1px solid #2188f7;
+  }
+  .reviews_people {
+    padding: 30px 15px 0;
+    em {
+      font-family: "Open Sans", sans-serif;
+      font-size: 17px;
+      line-height: 1.3;
+      opacity: 0.7;
+    }
+    h3 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+    }
+    p {
+      opacity: 0.7;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+    }
+  }
+  .button {
+    text-align: center;
+    button {
+      background-color: #fa4b11;
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      color: white;
+      margin: 60px 0;
+      transition: all 2s ease;
+      border-radius: 5px;
+    }
+    button:hover {
+      transition: all 2s ease;
+      transform: scale(1.2);
+    }
+  }
+}
