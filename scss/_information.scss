@@ -1,0 +1,39 @@
+.information {
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  overflow-x: hidden;
+  h2 {
+    padding-right: 20px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    opacity: 0.7;
+  }
+
+  hr {
+    display: block;
+    width: 80px;
+    border: 1px solid #2188f7;
+    margin-bottom: 50px;
+    @media (max-width: 576px) {
+      display: none;
+    }
+  }
+  .information_block {
+    padding-right: 30px;
+    h3 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      opacity: 0.7;
+      @media (max-width: 576px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
